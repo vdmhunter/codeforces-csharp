@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeforcesCSharpApp", "CodeforcesCSharpApp\CodeforcesCSharpApp.csproj", "{1595B3CC-3D26-4E7F-9B28-41DDA90BF6DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeforcesCSharpApp.xUnitTests", "CodeforcesCSharpApp.xUnitTests\CodeforcesCSharpApp.xUnitTests.csproj", "{7D9CAB2A-2070-4797-86C3-963273930CAA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1595B3CC-3D26-4E7F-9B28-41DDA90BF6DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1595B3CC-3D26-4E7F-9B28-41DDA90BF6DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1595B3CC-3D26-4E7F-9B28-41DDA90BF6DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1595B3CC-3D26-4E7F-9B28-41DDA90BF6DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D9CAB2A-2070-4797-86C3-963273930CAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D9CAB2A-2070-4797-86C3-963273930CAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D9CAB2A-2070-4797-86C3-963273930CAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D9CAB2A-2070-4797-86C3-963273930CAA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
