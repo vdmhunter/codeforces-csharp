@@ -10,8 +10,8 @@ namespace CodeforcesCSharpApp.xUnitTests.Ozon.Route256.Sandbox_20220817.ProblemA
 [ExcludeFromCodeCoverage]
 public class ProblemATests
 {
-    private const string ProblemName = "OZON || Route256 || Sandbox (17.08.2022) - Problem A";
-    private const string SubFolder = $"{Constants.Path}\\ProblemA";
+    private const string ProblemName = "ProblemA";
+    private const string ProblemDescription = "OZON || Route256 || Sandbox (17.08.2022) - Problem A";
     private readonly ITestOutputHelper _output;
 
     public ProblemATests(ITestOutputHelper output)
@@ -20,12 +20,12 @@ public class ProblemATests
     }
 
     [Fact]
-    [Trait("Category", $"{ProblemName}: Solution 01")]
+    [Trait("Category", $"{ProblemDescription}: Solution 01")]
     public void RunForSolution01()
     {
         var result = Utils.RunTests(Solution01.Program.Main,
-            $"{AppDomain.CurrentDomain.BaseDirectory}{SubFolder}\\Tests");
-        
+            $"{AppDomain.CurrentDomain.BaseDirectory}{Constants.Path}\\{ProblemName}\\Tests");
+
         _output.WriteLine(result.Message);
 
         Assert.Equal(ResultStatus.Success, result.Status);
