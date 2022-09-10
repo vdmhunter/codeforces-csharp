@@ -24,4 +24,19 @@
       <ProjectReference Include="..\CodeforcesCSharpApp\CodeforcesCSharpApp.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemA\Tests\01">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemA\Tests\01.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemA\Tests\02">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemA\Tests\02.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+    
 </Project>
