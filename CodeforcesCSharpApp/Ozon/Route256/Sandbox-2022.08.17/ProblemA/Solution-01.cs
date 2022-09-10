@@ -1,6 +1,6 @@
 namespace CodeforcesCSharpApp.Ozon.Route256.Sandbox_20220817.ProblemA01;
 
-public class Program
+public static class Program
 {
     public static void Main(string[] args)
     {
