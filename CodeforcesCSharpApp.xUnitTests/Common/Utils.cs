@@ -71,4 +71,51 @@ public static class Utils
             Status = ResultStatus.Success
         };
     }
+
+    public static TestsRunResult RunTest(Action<string[]> main, string testFilesPath, int testNumber)
+    {
+        var result = new TestsRunResult();
+
+        var testFilePath = $"{testFilesPath}{testNumber:00}";
+        var answerFilePath = $"{testFilesPath}{testNumber:00}.a";
+        
+        var inputFileText = File.ReadAllText(testFilePath);
+        using var reader = new StringReader(inputFileText);
+        Console.SetIn(reader);
+
+        using var writer = new StringWriter();
+        Console.SetOut(writer);
+
+        main(Array.Empty<string>());
+
+        var sb = writer.GetStringBuilder();
+        var outputLines = sb.ToString().Split(Environment.NewLine);
+        var answerLines = File.ReadLines(answerFilePath).ToArray();
+
+        if (outputLines.Length != answerLines.Length)
+        {
+            result.Status = ResultStatus.Fail;
+            result.Message = "Test failed. Number of lines in solution response and test file does not match!";
+
+            return result;
+        }
+
+        for (var i = 0; i < outputLines.Length; i++)
+        {
+            if (outputLines[i] == answerLines[i])
+                continue;
+
+            result.Status = ResultStatus.Fail;
+            result.Message = $"Test {testNumber:00} failed on line {i + 1}! " +
+                             $"Output value: {outputLines[i]}. Expected value: {answerLines[i]}";
+
+            return result;
+        }
+        
+        return new TestsRunResult
+        {
+            Message = $"Success! Test {testNumber:00} passed.",
+            Status = ResultStatus.Success
+        };
+    }
 }

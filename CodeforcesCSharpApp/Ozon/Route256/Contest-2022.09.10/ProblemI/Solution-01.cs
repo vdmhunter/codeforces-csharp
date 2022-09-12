@@ -2,7 +2,8 @@ namespace CodeforcesCSharpApp.Ozon.Route256.Contest_20220910.ProblemI01;
 
 public static class Program
 {
-    private static string _s = string.Empty;
+    private static string _trees = string.Empty;
+    
     public static void Main(string[] args)
     {
         var t = int.Parse(Console.ReadLine()!);
@@ -41,23 +42,23 @@ public static class Program
             {
                 PrintTree(roots[j], "", true);
                 if(j != roots.Count - 1)
-                    _s += "\n";
+                    _trees += "\n";
             }
-            _s += "\n";
+            _trees += "\n";
         }
         
-        _s = _s[..^2];
+        _trees = _trees[..^2];
         
-        Console.Write(_s.Replace("\n", Environment.NewLine));
+        Console.Write(_trees.Replace("\n", Environment.NewLine));
         
-        _s = string.Empty;
+        _trees = string.Empty;
     }
 
     private static void PrintTree(Node tree, string indent, bool last)
     {
         if(tree.P != -1)
-            _s += (indent + (tree.P == -1 ? "" : "|")) + "\n";
-        _s += (indent + (tree.P == -1 ? "" : "|--") + tree.Comment) + "\n";
+            _trees += (indent + (tree.P == -1 ? "" : "|")) + "\n";
+        _trees += (indent + (tree.P == -1 ? "" : "|--") + tree.Comment) + "\n";
         indent += last ? (tree.P == -1 ? "" : "   ") : "|  ";
             
         var i = 0;
