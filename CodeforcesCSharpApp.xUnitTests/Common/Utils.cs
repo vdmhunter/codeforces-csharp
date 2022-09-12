@@ -41,7 +41,7 @@ public static class Utils
             main(Array.Empty<string>());
 
             var sb = writer.GetStringBuilder();
-            var outputLines = sb.ToString().Split(Environment.NewLine, StringSplitOptions.RemoveEmptyEntries);
+            var outputLines = sb.ToString().Split(Environment.NewLine);
             var answerLines = File.ReadLines(answerFilePaths[i]).ToArray();
 
             if (outputLines.Length != answerLines.Length)
@@ -58,8 +58,8 @@ public static class Utils
                     continue;
 
                 result.Status = ResultStatus.Fail;
-                result.Message = $"Test failed on line {j + 1}! Output value: {outputLines[j]}. " +
-                                 $"Expected value: {answerLines[j]}";
+                result.Message = $"Test {(i + 1).ToString("00")} failed on line {j + 1}! " +
+                                 $"Output value: {outputLines[j]}. Expected value: {answerLines[j]}";
 
                 return result;
             }

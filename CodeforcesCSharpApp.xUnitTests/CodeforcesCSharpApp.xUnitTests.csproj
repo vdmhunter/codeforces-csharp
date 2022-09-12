@@ -37,6 +37,977 @@
       <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemA\Tests\02.a">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemG\Tests\01">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemG\Tests\01.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemG\Tests\02">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemG\Tests\02.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemG\Tests\03">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemG\Tests\03.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemG\Tests\04">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemG\Tests\04.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemG\Tests\05">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemG\Tests\05.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemG\Tests\06">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemG\Tests\06.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemG\Tests\07">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemG\Tests\07.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemG\Tests\08">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemG\Tests\08.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemG\Tests\09">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemG\Tests\09.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemG\Tests\10">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemG\Tests\10.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemG\Tests\11">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemG\Tests\11.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemG\Tests\12">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemG\Tests\12.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemG\Tests\13">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemG\Tests\13.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemG\Tests\14">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemG\Tests\14.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemG\Tests\15">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemG\Tests\15.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemG\Tests\16">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemG\Tests\16.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemG\Tests\17">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemG\Tests\17.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemG\Tests\18">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemG\Tests\18.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemG\Tests\19">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemG\Tests\19.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemG\Tests\20">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemG\Tests\20.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemG\Tests\21">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemG\Tests\21.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemG\Tests\22">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemG\Tests\22.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemG\Tests\23">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemG\Tests\23.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemG\Tests\24">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemG\Tests\24.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemG\Tests\25">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemG\Tests\25.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemH\Tests\01">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemH\Tests\01.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemH\Tests\02">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemH\Tests\02.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemH\Tests\03">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemH\Tests\03.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemH\Tests\04">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemH\Tests\04.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemH\Tests\05">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemH\Tests\05.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemH\Tests\06">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemH\Tests\06.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemH\Tests\07">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemH\Tests\07.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemH\Tests\08">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemH\Tests\08.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemH\Tests\09">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemH\Tests\09.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemH\Tests\10">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemH\Tests\10.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemH\Tests\11">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemH\Tests\11.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemH\Tests\12">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemH\Tests\12.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemH\Tests\13">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemH\Tests\13.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemH\Tests\14">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemH\Tests\14.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemH\Tests\15">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemH\Tests\15.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemH\Tests\16">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemH\Tests\16.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemH\Tests\17">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemH\Tests\17.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemH\Tests\18">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemH\Tests\18.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemH\Tests\19">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemH\Tests\19.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemH\Tests\20">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemH\Tests\20.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemI\Tests\01">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemI\Tests\01.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemI\Tests\02">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemI\Tests\02.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemI\Tests\03">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemI\Tests\03.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemI\Tests\04">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemI\Tests\04.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemI\Tests\05">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemI\Tests\05.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemI\Tests\06">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemI\Tests\06.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemI\Tests\07">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemI\Tests\07.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemI\Tests\08">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemI\Tests\08.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemI\Tests\09">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemI\Tests\09.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemI\Tests\10">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemI\Tests\10.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemI\Tests\11">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemI\Tests\11.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemI\Tests\12">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemI\Tests\12.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemI\Tests\13">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemI\Tests\13.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemI\Tests\14">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemI\Tests\14.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemI\Tests\15">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemI\Tests\15.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemI\Tests\16">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemI\Tests\16.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemI\Tests\17">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemI\Tests\17.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemI\Tests\18">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemI\Tests\18.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemI\Tests\19">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemI\Tests\19.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemI\Tests\20">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemI\Tests\20.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemI\Tests\21">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemI\Tests\21.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemI\Tests\22">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemI\Tests\22.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemI\Tests\23">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemI\Tests\23.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemI\Tests\24">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemI\Tests\24.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemI\Tests\25">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Sandbox-2022.08.17\ProblemI\Tests\25.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemB\Tests\01">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemB\Tests\01.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemB\Tests\02">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemB\Tests\02.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemB\Tests\03">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemB\Tests\03.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemB\Tests\04">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemB\Tests\04.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemB\Tests\05">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemB\Tests\05.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemB\Tests\06">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemB\Tests\06.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemB\Tests\07">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemB\Tests\07.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemB\Tests\08">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemB\Tests\08.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemB\Tests\09">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemB\Tests\09.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemB\Tests\10">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemB\Tests\10.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemB\Tests\11">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemB\Tests\11.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemB\Tests\12">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemB\Tests\12.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemB\Tests\13">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemB\Tests\13.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemB\Tests\14">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemB\Tests\14.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemB\Tests\15">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemB\Tests\15.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemC\Tests\01">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemC\Tests\01.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemC\Tests\02">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemC\Tests\02.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemC\Tests\03">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemC\Tests\03.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemC\Tests\04">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemC\Tests\04.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemC\Tests\05">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemC\Tests\05.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemD\Tests\01">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemD\Tests\01.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemD\Tests\02">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemD\Tests\02.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemD\Tests\03">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemD\Tests\03.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemD\Tests\04">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemD\Tests\04.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemD\Tests\05">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemD\Tests\05.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemD\Tests\06">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemD\Tests\06.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemD\Tests\07">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemD\Tests\07.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemD\Tests\08">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemD\Tests\08.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemD\Tests\09">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemD\Tests\09.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemD\Tests\10">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemD\Tests\10.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemD\Tests\11">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemD\Tests\11.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemD\Tests\12">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemD\Tests\12.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemD\Tests\13">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemD\Tests\13.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemD\Tests\14">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemD\Tests\14.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemD\Tests\15">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemD\Tests\15.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemD\Tests\16">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemD\Tests\16.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemD\Tests\17">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemD\Tests\17.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemD\Tests\18">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemD\Tests\18.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemD\Tests\19">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemD\Tests\19.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemD\Tests\20">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemD\Tests\20.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemE\Tests\01">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemE\Tests\01.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemE\Tests\02">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemE\Tests\02.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemE\Tests\03">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemE\Tests\03.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemE\Tests\04">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemE\Tests\04.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemE\Tests\05">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemE\Tests\05.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemE\Tests\06">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemE\Tests\06.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemE\Tests\07">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemE\Tests\07.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemE\Tests\08">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemE\Tests\08.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemE\Tests\09">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemE\Tests\09.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemE\Tests\10">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemE\Tests\10.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemE\Tests\11">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemE\Tests\11.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemE\Tests\12">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemE\Tests\12.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemE\Tests\13">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemE\Tests\13.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemE\Tests\14">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemE\Tests\14.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemE\Tests\15">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemE\Tests\15.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemE\Tests\16">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemE\Tests\16.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemE\Tests\17">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemE\Tests\17.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemE\Tests\18">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemE\Tests\18.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemE\Tests\19">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemE\Tests\19.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemE\Tests\20">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemE\Tests\20.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemE\Tests\21">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemE\Tests\21.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemE\Tests\22">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemE\Tests\22.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemE\Tests\23">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemE\Tests\23.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemE\Tests\24">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemE\Tests\24.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemE\Tests\25">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemE\Tests\25.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemI\Tests\01">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemI\Tests\01.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemI\Tests\02">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemI\Tests\02.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemI\Tests\03">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemI\Tests\03.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemI\Tests\04">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemI\Tests\04.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemI\Tests\05">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemI\Tests\05.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemI\Tests\06">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemI\Tests\06.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemI\Tests\07">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemI\Tests\07.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemI\Tests\08">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemI\Tests\08.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemI\Tests\09">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemI\Tests\09.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemI\Tests\10">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemI\Tests\10.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemI\Tests\11">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemI\Tests\11.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemI\Tests\12">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemI\Tests\12.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemI\Tests\13">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemI\Tests\13.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemI\Tests\14">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemI\Tests\14.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemI\Tests\15">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemI\Tests\15.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemI\Tests\16">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemI\Tests\16.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemI\Tests\17">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemI\Tests\17.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemI\Tests\18">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemI\Tests\18.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemI\Tests\19">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemI\Tests\19.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemI\Tests\20">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemI\Tests\20.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemI\Tests\21">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemI\Tests\21.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemI\Tests\22">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemI\Tests\22.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemI\Tests\23">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemI\Tests\23.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemI\Tests\24">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemI\Tests\24.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemI\Tests\25">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Ozon\Route256\Contest-2022.09.10\ProblemI\Tests\25.a">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Ozon\Route256\Contest-2022.09.10\ProblemA\Tests" />
+      <Folder Include="Ozon\Route256\Contest-2022.09.10\ProblemB\Tests" />
+      <Folder Include="Ozon\Route256\Contest-2022.09.10\ProblemC\Tests" />
+      <Folder Include="Ozon\Route256\Contest-2022.09.10\ProblemD\Tests" />
+      <Folder Include="Ozon\Route256\Contest-2022.09.10\ProblemE\Tests" />
+      <Folder Include="Ozon\Route256\Contest-2022.09.10\ProblemF\Tests" />
+      <Folder Include="Ozon\Route256\Sandbox-2022.08.17\ProblemH\Tests" />
+      <Folder Include="Ozon\Route256\Sandbox-2022.08.17\ProblemI\Tests" />
     </ItemGroup>
     
 </Project>
