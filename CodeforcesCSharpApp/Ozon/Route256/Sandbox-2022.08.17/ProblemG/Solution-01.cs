@@ -50,25 +50,25 @@ public static class Program
     
     private static void DfsFill(char?[,] map, int r, int c, char? color)
     {
-        if (r >= 0 && c >= 0 && r < map.GetLength(0) && c < map.GetLength(1) && map[r, c] == color)
-        {
-            map[r, c] = '0';
+        if (r < 0 || c < 0 || r >= map.GetLength(0) || c >= map.GetLength(1) || map[r, c] != color)
+            return;
+        
+        map[r, c] = '0';
             
-            DfsFill(map, r, c - 1, color);
-            DfsFill(map, r - 1, c, color);
-            DfsFill(map, r, c + 1, color);
-            DfsFill(map, r + 1, c, color);
+        DfsFill(map, r, c - 1, color);
+        DfsFill(map, r - 1, c, color);
+        DfsFill(map, r, c + 1, color);
+        DfsFill(map, r + 1, c, color);
 
-            if (r % 2 != 0)
-            {
-                DfsFill(map, r - 1, c + 1, color);
-                DfsFill(map, r + 1, c + 1, color);
-            }
-            else
-            {
-                DfsFill(map, r - 1, c - 1, color);
-                DfsFill(map, r + 1, c - 1, color);
-            }
+        if (r % 2 != 0)
+        {
+            DfsFill(map, r - 1, c + 1, color);
+            DfsFill(map, r + 1, c + 1, color);
+        }
+        else
+        {
+            DfsFill(map, r - 1, c - 1, color);
+            DfsFill(map, r + 1, c - 1, color);
         }
     }
 }

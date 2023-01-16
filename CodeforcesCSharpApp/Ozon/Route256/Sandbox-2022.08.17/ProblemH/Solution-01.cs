@@ -16,6 +16,7 @@ public static class Program
             .ToArray();
 
         var freeProcessors = new PriorityQueue<Processor, long>();
+
         foreach (var processor in processors)
             freeProcessors.Enqueue(processor, processor.EnergyConsumption);
 
@@ -34,6 +35,7 @@ public static class Program
                 if (busyProcessors.Count > 0)
                 {
                     var firstBusyProcessor = busyProcessors.Peek();
+
                     if (firstBusyProcessor.ReleaseTime - currentTime <= 0)
                     {
                         busyProcessors.Dequeue();
@@ -59,7 +61,7 @@ public static class Program
         Console.WriteLine(totalEnergy);
     }
 
-    private class Processor
+    private struct Processor
     {
         public long ReleaseTime;
 

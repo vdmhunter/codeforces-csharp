@@ -36,6 +36,7 @@ public static class Program
         var prefix = string.Empty;
         
         var pos = Wordbook.BinarySearch(searchWord);
+
         if (pos >= 0)
             Wordbook.RemoveAt(pos);
 
@@ -48,6 +49,7 @@ public static class Program
             if (start >= 0)
             {
                 result = Wordbook[start];
+
                 continue;
             }
             
