@@ -37,13 +37,15 @@ public static class Program
                 parent?.Children.Add(node);
             }
 
-            var roots = nodes.Where(p => p.P == -1).OrderBy(p => p.Id) .ToList();
+            var roots = nodes.Where(p => p.P == -1).OrderBy(p => p.Id).ToList();
+
             for (var j = 0; j < roots.Count; j++)
             {
                 PrintTree(roots[j], "", true);
                 if(j != roots.Count - 1)
                     _trees += "\n";
             }
+
             _trees += "\n";
         }
         
@@ -57,11 +59,13 @@ public static class Program
     private static void PrintTree(Node tree, string indent, bool last)
     {
         if(tree.P != -1)
-            _trees += (indent + (tree.P == -1 ? "" : "|")) + "\n";
-        _trees += (indent + (tree.P == -1 ? "" : "|--") + tree.Comment) + "\n";
+            _trees += indent + (tree.P == -1 ? "" : "|") + "\n";
+
+        _trees += indent + (tree.P == -1 ? "" : "|--") + tree.Comment + "\n";
         indent += last ? (tree.P == -1 ? "" : "   ") : "|  ";
             
         var i = 0;
+
         foreach (var child in tree.Children.OrderBy(n => n.Id))
         {
             PrintTree(child, indent, i == tree.Children.Count - 1);
