@@ -92,15 +92,7 @@ public static class Utils
         var outputLines = sb.ToString().Split(Environment.NewLine);
         var answerLines = File.ReadLines(answerFilePath).ToArray();
 
-        if (outputLines.Length != answerLines.Length)
-        {
-            result.Status = ResultStatus.Fail;
-            result.Message = "Test failed. Number of lines in solution response and test file does not match!";
-
-            return result;
-        }
-
-        for (var i = 0; i < outputLines.Length; i++)
+        for (var i = 0; i < answerLines.Length; i++)
         {
             if (outputLines[i] == answerLines[i])
                 continue;

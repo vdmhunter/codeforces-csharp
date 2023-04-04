@@ -1063,6 +1063,24 @@
       <None Update="Ozon\Route256\Sandbox-2023.01.16\ProblemB\Tests\10.a">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </None>
+      <None Update="Rounds\0863\ProblemB\Tests\01">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Rounds\0863\ProblemB\Tests\01.a">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Rounds\0863\ProblemA\Tests\01">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Rounds\0863\ProblemA\Tests\01.a">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Rounds\0863\ProblemC\Tests\01">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Rounds\0863\ProblemC\Tests\01.a">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
     </ItemGroup>
 
     <ItemGroup>
