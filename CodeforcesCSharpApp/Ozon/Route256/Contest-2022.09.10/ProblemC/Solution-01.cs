@@ -1,50 +1,34 @@
-using System.Text;
-
 namespace CodeforcesCSharpApp.Ozon.Route256.Contest_20220910.ProblemC01;
 
 public static class Program
 {
     public static void Main(string[] args)
     {
-        var result = new StringBuilder();
-        
         var t = int.Parse(Console.ReadLine()!);
-        
+
         for (var i = 0; i < t; i++)
         {
-            var line = Console.ReadLine()!;
+            var _ = int.Parse(Console.ReadLine()!);
 
-            while (line.Length > 0)
+            var requests = Console.ReadLine()!.Split(' ').Select(a => Convert.ToInt32(a));
+
+            int result = 0, current = 0, countClient2 = 0, client1 = 0, client2 = 0;
+            
+            foreach (var request in requests)
             {
-                switch (line[..2])
+                current = request == client1 || request == client2 ? current + 1 : countClient2 + 1;
+                countClient2 = request == client2 ? countClient2 + 1 : 1;
+                
+                if (client2 != request)
                 {
-                    case "00":
-                        result.Append('a');
-                        line = line[2..];
-                        break;
-                    case "11":
-                        result.Append('d');
-                        line = line[2..];
-                        break;
-                    default:
-                        switch (line[..3])
-                        {
-                            case "100":
-                                result.Append('b');
-                                line = line[3..];
-                                break;
-                            case "101":
-                                result.Append('c');
-                                line = line[3..];
-                                break; 
-                        }
-                        break;
-                } 
+                    client1 = client2;
+                    client2 = request;
+                }
+
+                result = Math.Max(result, current);
             }
-            
-            Console.WriteLine(result.ToString());
-            
-            result.Clear();
+
+            Console.WriteLine(result);
         }
     }
 }

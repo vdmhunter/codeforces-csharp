@@ -1,104 +1,43 @@
-using System.Text;
-
 namespace CodeforcesCSharpApp.Ozon.Route256.Contest_20220910.ProblemE01;
 
-public static class Program
+public static class Solution01
 {
     public static void Main(string[] args)
     {
-        var result = new StringBuilder();
-
         var t = int.Parse(Console.ReadLine()!);
 
         for (var i = 0; i < t; i++)
         {
-            var nm = Console.ReadLine()!.Split(' ');
-            var n = Convert.ToInt32(nm[0]);
-            var m = Convert.ToInt32(nm[1]);
+            var n = int.Parse(Console.ReadLine()!);
+            var dic = new Dictionary<int, int[]>();
+            var arr = new int[n];
 
-            var field = new char[n, m];
-            var visited = new List<(int row, int column)>();
-            (int row, int column) current = (-1, -1);
-
-            for (var r = 0; r < n; r++)
+            for (var j = 0; j < n; j++)
             {
-                var line = Console.ReadLine()!;
-
-                for (var c = 0; c < m; c++) field[r, c] = line[c];
+                var eab = Console.ReadLine()!.Split(' ').Select(item => Convert.ToInt32(item)).ToArray();
+                dic[eab[0]] = new[] { eab[1], eab[2] };
             }
 
-            for (var r = 0; r < n; r++)
-            for (var c = 0; c < m; c++)
-                if (CanBeFirst((r, c)))
-                    current = (r, c);
+            var first = dic.First();
+            arr[0] = first.Value[0];
+            arr[1] = first.Key;
+            arr[2] = first.Value[1];
+            dic.Remove(first.Key);
+            var k = 2;
 
-            visited.Add(current);
-
-            while (true)
+            while (dic.Count > 2)
             {
-                if (current.row > 0
-                    && !visited.Contains((current.row - 1, current.column))
-                    && field[current.row - 1, current.column] == '*')
-                {
-                    current = (current.row - 1, current.column);
-                    visited.Add(current);
-                    result.Append('U');
-
-                    continue;
-                }
-
-                if (current.column < m - 1
-                    && !visited.Contains((current.row, current.column + 1))
-                    && field[current.row, current.column + 1] == '*')
-                {
-                    current = (current.row, current.column + 1);
-                    visited.Add(current);
-                    result.Append('R');
-
-                    continue;
-                }
-
-                if (current.row < n - 1
-                    && !visited.Contains((current.row + 1, current.column))
-                    && field[current.row + 1, current.column] == '*')
-                {
-                    current = (current.row + 1, current.column);
-                    visited.Add(current);
-                    result.Append('D');
-
-                    continue;
-                }
-
-                if (current.column > 0
-                    && !visited.Contains((current.row, current.column - 1))
-                    && field[current.row, current.column - 1] == '*')
-                {
-                    current = (current.row, current.column - 1);
-                    visited.Add(current);
-                    result.Append('L');
-
-                    continue;
-                }
-
-                break;
+                arr[k + 1] = dic[arr[k]][0] == arr[k - 1] ? dic[arr[k]][1] : dic[arr[k]][0];
+                dic.Remove(arr[k]);
+                k++;
             }
 
-            Console.WriteLine(result.ToString());
-            result.Clear();
-
-            bool CanBeFirst((int row, int column) cell)
+            for (var j = 0; j < n / 2; j++)
             {
-                var count = 0;
+                var idx = ((j + n / 2) % n + n) % n;
+                var str = $"{arr[j]} {arr[idx]}";
 
-                if (field[cell.row, cell.column] == '*')
-                {
-                    if (cell.row > 0 && field[cell.row - 1, cell.column] == '*') count++;
-                    if (cell.column < m - 1 && field[cell.row, cell.column + 1] == '*') count++;
-                    if (cell.row < n - 1 && field[cell.row + 1, cell.column] == '*') count++;
-                    if (cell.column > 0 && field[cell.row, cell.column - 1] == '*') count++;
-                }
-
-                return count == 1;
+                Console.WriteLine(str);
             }
         }
     }

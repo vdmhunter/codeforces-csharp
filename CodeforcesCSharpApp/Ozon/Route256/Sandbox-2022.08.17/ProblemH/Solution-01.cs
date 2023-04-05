@@ -12,7 +12,7 @@ public static class Program
 
         var processors = Console.ReadLine()!
             .Split(' ', StringSplitOptions.RemoveEmptyEntries)
-            .Select(a => new Processor(currentTime, Convert.ToInt32(a)))
+            .Select(a => new Processor(currentTime, Convert.ToInt64(a)))
             .ToArray();
 
         var freeProcessors = new PriorityQueue<Processor, long>();

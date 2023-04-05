@@ -1,34 +1,105 @@
+using System.Text;
+
 namespace CodeforcesCSharpApp.Ozon.Route256.Contest_20220910.ProblemD01;
 
 public static class Program
 {
     public static void Main(string[] args)
     {
+        var result = new StringBuilder();
+
         var t = int.Parse(Console.ReadLine()!);
 
         for (var i = 0; i < t; i++)
         {
-            var _ = int.Parse(Console.ReadLine()!);
+            var nm = Console.ReadLine()!.Split(' ');
+            var n = Convert.ToInt32(nm[0]);
+            var m = Convert.ToInt32(nm[1]);
 
-            var requests = Console.ReadLine()!.Split(' ').Select(a => Convert.ToInt32(a));
+            var field = new char[n, m];
+            var visited = new List<(int row, int column)>();
+            (int row, int column) current = (-1, -1);
 
-            int result = 0, current = 0, countClient2 = 0, client1 = 0, client2 = 0;
-            
-            foreach (var request in requests)
+            for (var r = 0; r < n; r++)
             {
-                current = request == client1 || request == client2 ? current + 1 : countClient2 + 1;
-                countClient2 = request == client2 ? countClient2 + 1 : 1;
-                
-                if (client2 != request)
-                {
-                    client1 = client2;
-                    client2 = request;
-                }
+                var line = Console.ReadLine()!;
 
-                result = Math.Max(result, current);
+                for (var c = 0; c < m; c++) field[r, c] = line[c];
             }
 
-            Console.WriteLine(result);
+            for (var r = 0; r < n; r++)
+            for (var c = 0; c < m; c++)
+                if (CanBeFirst((r, c)))
+                    current = (r, c);
+
+            visited.Add(current);
+
+            while (true)
+            {
+                if (current.row > 0
+                    && !visited.Contains((current.row - 1, current.column))
+                    && field[current.row - 1, current.column] == '*')
+                {
+                    current = (current.row - 1, current.column);
+                    visited.Add(current);
+                    result.Append('U');
+
+                    continue;
+                }
+
+                if (current.column < m - 1
+                    && !visited.Contains((current.row, current.column + 1))
+                    && field[current.row, current.column + 1] == '*')
+                {
+                    current = (current.row, current.column + 1);
+                    visited.Add(current);
+                    result.Append('R');
+
+                    continue;
+                }
+
+                if (current.row < n - 1
+                    && !visited.Contains((current.row + 1, current.column))
+                    && field[current.row + 1, current.column] == '*')
+                {
+                    current = (current.row + 1, current.column);
+                    visited.Add(current);
+                    result.Append('D');
+
+                    continue;
+                }
+
+                if (current.column > 0
+                    && !visited.Contains((current.row, current.column - 1))
+                    && field[current.row, current.column - 1] == '*')
+                {
+                    current = (current.row, current.column - 1);
+                    visited.Add(current);
+                    result.Append('L');
+
+                    continue;
+                }
+
+                break;
+            }
+
+            Console.WriteLine(result.ToString());
+            result.Clear();
+
+            bool CanBeFirst((int row, int column) cell)
+            {
+                var count = 0;
+
+                if (field[cell.row, cell.column] == '*')
+                {
+                    if (cell.row > 0 && field[cell.row - 1, cell.column] == '*') count++;
+                    if (cell.column < m - 1 && field[cell.row, cell.column + 1] == '*') count++;
+                    if (cell.row < n - 1 && field[cell.row + 1, cell.column] == '*') count++;
+                    if (cell.column > 0 && field[cell.row, cell.column - 1] == '*') count++;
+                }
+
+                return count == 1;
+            }
         }
     }
 }

@@ -1,29 +1,50 @@
+using System.Text;
+
 namespace CodeforcesCSharpApp.Ozon.Route256.Contest_20220910.ProblemB01;
 
 public static class Program
 {
     public static void Main(string[] args)
     {
+        var result = new StringBuilder();
+        
         var t = int.Parse(Console.ReadLine()!);
         
         for (var i = 0; i < t; i++)
         {
-            var line = Console.ReadLine()!.Split(' ');
-            var day = Convert.ToInt32(line[0]);
-            var month = Convert.ToInt32(line[1]);
-            var year = Convert.ToInt32(line[2]);
+            var line = Console.ReadLine()!;
 
-            try
+            while (line.Length > 0)
             {
-                var _ = new DateTime(year, month, day);
+                switch (line[..2])
+                {
+                    case "00":
+                        result.Append('a');
+                        line = line[2..];
+                        break;
+                    case "11":
+                        result.Append('d');
+                        line = line[2..];
+                        break;
+                    default:
+                        switch (line[..3])
+                        {
+                            case "100":
+                                result.Append('b');
+                                line = line[3..];
+                                break;
+                            case "101":
+                                result.Append('c');
+                                line = line[3..];
+                                break; 
+                        }
+                        break;
+                } 
             }
-            catch (Exception)
-            {
-                Console.WriteLine("NO");
-                continue;
-            }
-
-            Console.WriteLine("YES");
+            
+            Console.WriteLine(result.ToString());
+            
+            result.Clear();
         }
     }
 }

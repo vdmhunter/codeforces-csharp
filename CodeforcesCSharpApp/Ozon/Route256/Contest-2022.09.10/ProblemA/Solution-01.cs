@@ -4,6 +4,27 @@ public static class Program
 {
     public static void Main(string[] args)
     {
-        Console.WriteLine("I am sure that I will fill out the form by 10:00 am on September 12, 2022.");
+        var t = int.Parse(Console.ReadLine()!);
+        
+        for (var i = 0; i < t; i++)
+        {
+            var line = Console.ReadLine()!.Split(' ');
+            var day = Convert.ToInt32(line[0]);
+            var month = Convert.ToInt32(line[1]);
+            var year = Convert.ToInt32(line[2]);
+
+            try
+            {
+                var _ = new DateTime(year, month, day);
+            }
+            catch (Exception)
+            {
+                Console.WriteLine("NO");
+                
+                continue;
+            }
+
+            Console.WriteLine("YES");
+        }
     }
 }

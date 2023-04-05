@@ -4,15 +4,13 @@ public static class Program
 {
     public static void Main(string[] args)
     {
-        var tString = Console.ReadLine()!;
-        var t = int.Parse(tString);
+        var t = int.Parse(Console.ReadLine()!);
         
         for (var i = 0; i < t; i++)
         {
-            var line = Console.ReadLine()!;
-            var stringArr = line.Split(' ');
-            var a = int.Parse(stringArr[0]);
-            var b = int.Parse(stringArr[1]);
+            var ab = Console.ReadLine()!.Split(' ');
+            var a = int.Parse(ab[0]);
+            var b = int.Parse(ab[1]);
             var sum = a + b;
 
             Console.WriteLine(sum);

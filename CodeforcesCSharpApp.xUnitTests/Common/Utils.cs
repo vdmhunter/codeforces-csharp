@@ -58,7 +58,7 @@ public static class Utils
                     continue;
 
                 result.Status = ResultStatus.Fail;
-                result.Message = $"Test {(i + 1).ToString("00")} failed on line {j + 1}! " +
+                result.Message = $"Test {i + 1:00} failed on line {j + 1}! " +
                                  $"Output value: {outputLines[j]}. Expected value: {answerLines[j]}";
 
                 return result;
